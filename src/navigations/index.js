@@ -4,11 +4,9 @@ import {Text} from 'react-native';
 
 const AppNavContainer = () => {
   return (
-    <>
-      <NavigationContainer>
-        <Text>Hello World</Text>
-      </NavigationContainer>
-    </>
+    <NavigationContainer>
+      <Text>Hello World</Text>
+    </NavigationContainer>
   );
 };
 
